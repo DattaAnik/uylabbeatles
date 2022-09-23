@@ -1,0 +1,87 @@
+/* Extra Extra large Device*/
+@media (min-width:1400px) {}
+
+/* Extra Large Device*/
+@media (min-width:1200px) and (max-width:1399.98px) {}
+
+/* Large Device*/
+@media (min-width:992px) and (max-width:1199.98px) {
+    ul.right_foot_links {
+        margin-left: 35px;
+    }
+
+    .foot_con .foot_links ul li {
+        margin: 10px 0px 10px 0px;
+    }
+
+}
+
+/* Mediam Device*/
+@media (min-width:768px) and (max-width:991.98px) {
+    ul.right_foot_links {
+        margin-left: 35px;
+    }
+
+    .foot_con .foot_links ul li {
+        margin: 10px 0px 10px 0px;
+    }
+}
+
+/* Small Device*/
+@media (min-width:576px) and (max-width:767.98px) {
+    .about_des {
+        text-align: justify;
+    }
+
+    .service_con p {
+        text-align: justify;
+    }
+
+    .foot_desc {
+        text-align: justify;
+    }
+}
+
+/* Extra Small Device*/
+@media (min-width:300px) and(max-width:575.98px) {
+    .about_des {
+        text-align: justify;
+    }
+
+    .service_con p {
+        text-align: justify;
+    }
+
+    .team_img_overlay ul li a {
+        height: 30px;
+        width: 30px;
+    }
+
+    .testi_con p:nth-last-child(1) {
+        text-align: justify;
+    }
+
+    .foot_desc {
+        text-align: justify;
+    }
+
+    .hero_con p {
+        text-align: justify !important;
+    }
+}
+
+/*Extra extra small*/
+@media (max-width: 299.98px) {
+    .hero_con h3 {
+        font-size: 20px;
+    }
+
+    .hero_btn a {
+        margin: 5px 0px !important;
+        width: 100%;
+    }
+
+    .hero_con p {
+        text-align: justify !important;
+    }
+}
